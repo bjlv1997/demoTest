@@ -153,6 +153,7 @@ public class Controller1 {
         executorService.execute(() -> {
             async2();
         });
+
         logger.info("测试4");
         return ResultFactory.success("调用成功");
     }
