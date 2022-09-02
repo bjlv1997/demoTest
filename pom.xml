@@ -76,6 +76,13 @@
             <artifactId>lombok</artifactId>
             <version>1.18.0</version>
         </dependency>
+        <!--雪花算法-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+
 
     </dependencies>
 
