@@ -41,4 +41,9 @@ public class Category {
     public int hashCode() {
         return Objects.hash(categoryId, categoryName);
     }
+
+    public Category(Long categoryId, String categoryName) {
+        this.categoryId = categoryId;
+        this.categoryName = categoryName;
+    }
 }
