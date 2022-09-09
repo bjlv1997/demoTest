@@ -3,6 +3,7 @@ package com.example.demo.common;
 import java.util.Date;
 
 public class ResultFactory {
+
     /**
      * 返回成功
      *
